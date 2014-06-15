@@ -11,7 +11,7 @@ def factorize(num)
   factors.unshift(num) 
 end
 
-def prime?(num)
+def prime?(num) #could use the prime standard library, but would that be considered cheating?
   if num < 1
     false
   elsif num.between?(2,3)
